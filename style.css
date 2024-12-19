@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #f0eef1;
+}
+
+#header{
+    padding: 20px 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fffbfb;
+    font-weight: 500;
+    align-items: center;
+}
+
+#mainbody{
+    padding: 20px 10%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #f0eef1;
+    height: auto;    
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    background-color: #fffbfb;
+}
+
+#addbooksdiv{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#addbooksbtn{
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 15px;
+}
+
+#addbooksbtn:hover{
+    background-color: #d8d8d8;
+    border-radius: 10px;
+}
+
+#books{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+.bookcard{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 340px;
+    background-color: #fffbfb;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+#loginbtn{
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#loginbtndiv{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fffbfb;
+}
+
+.title{
+    font-size: 20px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.author{
+    font-size: 20px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.pages{
+    font-size: 20px;
+    margin:12px;
+    font-weight: 500;
+}
+
+.read{
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 300px;
+    background-color: #9fff9c;
+    border: none;
+    border-radius: 10px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.read:hover{
+    background-color: #8fe58c;
+}
+
+.unread{
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 300px;
+    background-color: #ff9c9c;
+    border: none;
+    border-radius: 10px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.unread:hover{
+    background-color: #e58c8c;
+}
+
+.remove{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: #f0eef1;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+.remove:hover{
+    background-color: #d8d8d8;
+}
+
+#addbookformdiv{
+    position: fixed;
+    top: 28%;
+    left: 40.5%;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    height: 400px;
+    width: 320px;
+    background-color: #1f1f1f;
+    border-radius: 50px;
+}
+
+#centeralign{
+    z-index: 10000;
+}
+
+#addbookform{
+    display: grid;
+    grid-template-columns: auto;    
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.inputs{
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+}
+
+#is-read{
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+label{
+    color: white;
+}
+
+#submit{
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #9fff9c;
+    border-radius: 10px;
+}
+
+.blurr{
+    filter: blur(3px);
+    pointer-events: none;
+}
+
+.hidden{
+    display: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#boxshadow{
+    height: 100px;
+}
+
+#header{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
